@@ -1,6 +1,6 @@
 # 我的军火库
 
-[**Don't Repeat Yourself**](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)，这里收集维护平时写程序是会用到的一些有用的小函数，这些函数：
+[**Don't Repeat Yourself**](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)，这里收集维护平时写程序时会用到的一些有用的小函数，这些函数：
 
 1. 崇尚小而美的设计，使用方式简洁，尽量少地依赖
 

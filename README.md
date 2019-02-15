@@ -10,9 +10,11 @@
 
 ## 目录
 
-[日志函数](https://github.com/Captain1986/utils/blob/master/logger/log.h)
+[1.日志函数](https://github.com/Captain1986/utils/blob/master/1.logger/log.h)
 
-[计时器类](https://github.com/Captain1986/utils/blob/master/timer/timer.h)
+[2.计时器类](https://github.com/Captain1986/utils/blob/master/2.timer/timer.h)
+
+[3.平台判断工具](https://github.com/Captain1986/utils/blob/master/3.system_cls/cls.h)
 
 ## 联系方式：
 

@@ -1,6 +1,6 @@
 # 我的军火库
 
-[**Don't Repeat Yourself**](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)，这里收集维护平时写程序时会用到的一些有用的小函数，这些函数：
+[**Don't Repeat Yourself**](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)，这里收集维护平时写程序时会用到的一些有用的小函数(和配置)，这些函数：
 
 1. 崇尚小而美的设计，使用方式简洁，尽量少地依赖
 
@@ -17,6 +17,8 @@
 [3.平台判断工具](https://github.com/Captain1986/utils/blob/master/3.system_cls/cls.h)
 
 [4.开发机配置文件](https://github.com/Captain1986/utils/blob/master/4.config_files/)
+
+[5.颜色点取器](https://github.com/Captain1986/utils/blob/master/5.color_picker/main.cpp)
 
 ## 联系方式：
 

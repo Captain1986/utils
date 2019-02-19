@@ -16,6 +16,8 @@
 
 [3.平台判断工具](https://github.com/Captain1986/utils/blob/master/3.system_cls/cls.h)
 
+[4.开发机配置文件](https://github.com/Captain1986/utils/blob/master/4.config_files/)
+
 ## 联系方式：
 
 + Email: dupeng63@163.com

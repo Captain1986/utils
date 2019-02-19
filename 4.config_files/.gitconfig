@@ -1,0 +1,35 @@
+[user]
+	name = dupeng
+	email = dupeng63@163.com
+
+[alias]
+	df = diff
+	st = status -s
+	co = checkout
+	ci = commit
+	br = branch
+	unstage = reset HEAD
+	last = log -1
+	l  = log --oneline --decorate -12 --color
+	ll = log --oneline --decorate --color
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset ' --abbrev-commit
+	lc = log --graph --color
+	ps = push
+	pl = pull
+	rb = rebase
+	dci = dcommit
+	sbi = submodule init
+	sbu = submodule update
+	sbp = submodule foreach git pull
+	sbc = submodule foreach git co master
+
+[credential]
+	helper = store
+
+[push]
+	default = simple
+
+[core]
+	editor = vim
+[color]
+	ui = true

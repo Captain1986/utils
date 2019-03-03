@@ -20,6 +20,8 @@
 
 [5.颜色点取器](https://github.com/Captain1986/utils/blob/master/5.color_picker/main.cpp)
 
+[6.非极大值抑制](https://github.com/Captain1986/utils/blob/master/6.nms/nms.cpp)
+
 ## 联系方式：
 
 + Email: dupeng63@163.com

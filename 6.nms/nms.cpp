@@ -3,7 +3,8 @@
 #include <algorithm>
 
 // 坐标系和OpenCV保持一致，左上角为原点，X轴从左到右，Y轴从上到下
-float iou(const std::vector<float> boxA, const std::vector<float> boxB)
+float
+iou(const std::vector<float>& boxA, const std::vector<float>& boxB)
 {
     const float x11 = boxA[0];// 第一个box左上角点的X坐标
     const float y11 = boxA[1];// 第一个box左上角点的Y坐标
@@ -41,7 +42,8 @@ float iou(const std::vector<float> boxA, const std::vector<float> boxB)
  * 参考资料：https://zhuanlan.zhihu.com/p/49481833， https://zhuanlan.zhihu.com/p/50126479，https://zhuanlan.zhihu.com/p/42018282
  * */
 
-std::vector<int> nms(const std::vector<std::vector<float>> boxes, const float threshold/*, const std::string type*/)
+std::vector<int>
+nms(const std::vector<std::vector<float>>& boxes, const float threshold/*, const std::string type*/)
 {
     if (boxes.empty()) {
         return std::vector<int>();

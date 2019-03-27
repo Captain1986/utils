@@ -22,6 +22,8 @@
 
 [6.非极大值抑制](https://github.com/Captain1986/utils/blob/master/6.nms/nms.cpp)
 
+[7.Android jni开发](https://github.com/Captain1986/utils/blob/master/7.android_jni/Application.mk)
+
 ## 联系方式：
 
 + Email: dupeng63@163.com

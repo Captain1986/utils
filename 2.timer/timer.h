@@ -11,6 +11,21 @@
 #ifndef _TIMER_
 #define _TIMER_
 
+/********************************************************
+// 在Linux上不要C++11支持的gettimeofday()
+#include <sys/time.h>
+
+struct timeval start, end;
+gettimeofday(&start, NULL);
+long long tag = (long long)start.tv_sec*1e6 + start.tv_usec;
+
+func(...);
+
+gettimeofday(&end, NULL);
+unsigned int diff = 1e6 * (end.tv_sec-start.tv_sec)+ end.tv_usec-start.tv_usec;
+printf("func, [time_tag[%lld]] elapsed is %fms\n", tag % int(1e8), diff/1000.0f);
+ ********************************************************/
+
 #include <chrono>
 using namespace std;
 using namespace std::chrono;

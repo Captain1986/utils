@@ -28,6 +28,8 @@
 
 [9.CMake](https://github.com/Captain1986/utils/blob/master/9.CMake/)
 
+[10.快速扫描cv::Mat的方法](https://github.com/Captain1986/utils/blob/master/10.scan_cvmat_efficiently/main.cpp)
+
 ## 联系方式：
 
 + Email: dupeng63@163.com

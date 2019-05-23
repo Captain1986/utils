@@ -30,6 +30,8 @@
 
 [U#0010-scan_cvmat_efficiently](https://github.com/Captain1986/utils/blob/master/U%230010-scan_cvmat_efficiently/main.cpp)
 
+[U#0011-Anaconda使用经验](https://github.com/Captain1986/utils/blob/master/U%230011-Anaconda%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/README.md)
+
 ## 联系方式：
 
 + Email: dupeng63@163.com

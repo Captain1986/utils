@@ -8,7 +8,7 @@
 
 欢迎各路朋友提Pull Request，改错别字都欢迎～
 
-## 目录
+## 目录（注：列且仅列已经完成的）
 
 [U#0001-loger](https://github.com/Captain1986/utils/blob/master/U%230001-loger/log.h)
 

@@ -32,6 +32,8 @@
 
 [U#0011-Anaconda使用经验](https://github.com/Captain1986/utils/blob/master/U%230011-Anaconda%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/README.md)
 
+[U#0012-Kaggle-api常用命令](https://github.com/Captain1986/utils/tree/master/U%230012-Kaggle-api%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
+
 ## 联系方式：
 
 + Email: dupeng63@163.com

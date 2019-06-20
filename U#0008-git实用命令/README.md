@@ -29,3 +29,10 @@
   `git push --force`
 
 3. 
+
+## 参考文献
+
+[Git菜单](https://geeeeeeeeek.github.io/git-recipes/)
+
+[gitmoji](https://gitmoji.carloscuesta.me/)
+

@@ -8,6 +8,14 @@
 
   `conda create --name py352 python=3.5.2`
 
+   按照yml文件的配置建立一个新的环境
+
+  `conda env create -f environment.yml`
+
+   按照yml更新现有环境
+
+  `conda env update -f environment.yml`
+
 3. 删除一个新的环境（然后选择y）
 
   `conda create --name py352 python=3.5.2`

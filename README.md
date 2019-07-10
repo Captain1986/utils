@@ -34,6 +34,8 @@
 
 [U#0012-Kaggle-api常用命令](https://github.com/Captain1986/utils/blob/master/U%230012-Kaggle-api%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/README.md)
 
+[U#0013-caffe_merge_bn_ssd](https://github.com/Captain1986/utils/blob/master/U%230013-caffe_merge_bn_ssd/merge_bn.py)
+
 ## 联系方式：
 
 + Email: dupeng63@163.com

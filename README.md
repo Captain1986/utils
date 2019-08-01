@@ -26,7 +26,7 @@
 
 [U#0008-git实用命令](https://github.com/Captain1986/utils/blob/master/U%230008-git%E5%AE%9E%E7%94%A8%E5%91%BD%E4%BB%A4/README.md)
 
-[U#0009-CMake](https://github.com/Captain1986/utils/blob/master/U%230009-CMake/)
+[U#0009-CMake实用模板](https://github.com/Captain1986/utils/tree/master/U%230009-CMake%E5%AE%9E%E7%94%A8%E6%A8%A1%E6%9D%BF)
 
 [U#0010-scan_cvmat_efficiently](https://github.com/Captain1986/utils/blob/master/U%230010-scan_cvmat_efficiently/main.cpp)
 

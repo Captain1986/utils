@@ -4,7 +4,7 @@
 //           https://www.learnopencv.com/get-opencv-build-information-getbuildinformation/
 // 编译方法：g++ getOpenCVInfo.cpp `pkg-config --libs --cflags opencv`
 //
-int main( int argc, char** argv )
+int main(int argc, char** argv)
 {
     // 打印版本信息（从头文件中拿）
     std::cout << "OpenCV version : " << CV_VERSION << std::endl;
@@ -15,7 +15,7 @@ int main( int argc, char** argv )
     // 打印编译信息（从库中拿）
     std::cout << cv::getBuildInformation() << std::endl;
 
-    if ( CV_MAJOR_VERSION < 3) {
+    if (CV_MAJOR_VERSION < 3) {
         // Old OpenCV 2 code goes here. 
     } else {
         // New OpenCV 3 code goes here. 

@@ -1,3 +1,6 @@
+#!/usr/bin/python3.6
+#-*- coding: utf-8 -*-
+
 import cv2
 
 # 参考资料：https://www.learnopencv.com/how-to-find-opencv-version-python-cpp/

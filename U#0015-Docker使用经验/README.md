@@ -4,7 +4,7 @@
 
 ### 使用经验
 
-**1. 在Ubuntu上安装Docker**
+#### **1. 在Ubuntu上安装Docker**
 
 Step 1. add the GPG key for the official Docker repository to the system
 
@@ -39,7 +39,7 @@ Step 6. install Docker
 
 `sudo apt-get install -y docker-ce`
 
-**2. 安装Docker OpenCV Image**
+#### **2. 安装Docker OpenCV Image**
 
 注意，docker image默认不支持X11转发，需要自己做映射
 
@@ -60,11 +60,13 @@ Step 6. install Docker
 -  **-p** sets up a port forward. This flag maps the container’s port to a port on the host system.
 -  **/bin/bash** runs **.bashrc** file on startup
 
-**3. 提交对Docker Image的修改**
+#### **3. 提交对Docker Image的修改**
 
 默认在Docker容器内的修改是不会保存在Docker image里面的，需要自己如下图所示Commit一下：
 
 ![](images/commit-changes-to-docker-image.png)
+
+#### **4.**
 
 
 

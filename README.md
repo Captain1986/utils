@@ -40,6 +40,8 @@
 
 [U#0015-Docker使用经验](https://github.com/Captain1986/utils/blob/master/U%230015-Docker%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/README.md)
 
+[U#0016-JetsonNano使用经验](https://github.com/Captain1986/utils/blob/master/U%230016-JetsonNano%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/README.md)
+
 ## 联系方式：
 
 + Email: dupeng63@163.com

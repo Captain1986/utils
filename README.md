@@ -42,6 +42,8 @@
 
 [U#0016-JetsonNano使用经验](https://github.com/Captain1986/utils/blob/master/U%230016-JetsonNano%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/README.md)
 
+[U#0017-PyTorch_tricks](https://github.com/Captain1986/utils/blob/master/U%230017-PyTorch_tricks/README.md)
+
 ## 联系方式：
 
 + Email: dupeng63@163.com

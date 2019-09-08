@@ -18,15 +18,17 @@ Keras有一个简洁的API来查看模型的每一层输出尺寸，这在调试
 
 使用很简单，如下用法：
 
-`from torchsummary import summary
+```python3
+from torchsummary import summary
+
 summary(your_model, input_size=(channels, H, W))
-`
+```
 
 `input_size` 是根据你自己的网络模型的输入尺寸进行设置。
 
 #### **3. 梯度裁剪（Gradient Clipping）**
 
-`
+```python3
 import torch.nn as nn
 
 outputs = model(data)
@@ -35,7 +37,7 @@ optimizer.zero_grad()
 loss.backward()
 nn.utils.clip_grad_norm_(model.parameters(), max_norm=20, norm_type=2)
 optimizer.step()
-`
+```
 
 `nn.utils.clip_grad_norm_` 的参数：
 
@@ -171,8 +173,6 @@ for name, value in net.named_parameters():
     print('name: {0},\t grad: {1}'.format(name, value.requires_grad))
 ```
 
-
-
 假设前几层信息如下：
 
 ```python3
@@ -186,8 +186,6 @@ name: cnn.VGG_16.convolution2_2.weight,	 grad: True
 name: cnn.VGG_16.convolution2_2.bias,	 grad: True
 ```
 
-
-
 后面的True表示该层的参数可训练，然后我们定义一个要冻结的层的列表：
 
 ```python3
@@ -199,8 +197,6 @@ no_grad = [
 ]
 ```
 
-
-
 冻结方法如下：
 
 ```python3
@@ -211,8 +207,6 @@ for name, value in net.named_parameters():
     else:
         value.requires_grad = True
 ```
-
-
 
 冻结后我们再打印每层的信息：
 
@@ -227,11 +221,7 @@ name: cnn.VGG_16.convolution2_2.weight,	 grad: True
 name: cnn.VGG_16.convolution2_2.bias,	 grad: True
 ```
 
-
-
 可以看到前两层的weight和bias的requires_grad都为False，表示它们不可训练。
-
-
 
 最后在定义优化器时，只对requires_grad为True的层的参数进行更新。
 
@@ -283,14 +273,11 @@ optimizer = optim.Adam(
 )
 ```
 
-
-
 我们将模型划分为两部分，存放到一个列表里，每部分就对应上面的一个字典，在字典里设置不同的学习率。当这两部分有相同的其他参数时，就将该参数放到列表外面作为全局参数，如上面的`weight_decay`。
 
 也可以在列表外设置一个全局学习率，当各部分字典里设置了局部学习率时，就使用该学习率，否则就使用列表外的全局学习率。
 
 #### **10.**
-
 
 
 ### 参考资料

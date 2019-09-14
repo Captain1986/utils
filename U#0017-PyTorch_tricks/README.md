@@ -277,10 +277,59 @@ optimizer = optim.Adam(
 
 也可以在列表外设置一个全局学习率，当各部分字典里设置了局部学习率时，就使用该学习率，否则就使用列表外的全局学习率。
 
-#### **10.**
+#### **10. 模型参数和计算量分析**
+
+**方法一**：参考这里的工具https://github.com/sovrasov/flops-counter.pytorch
+
+**Install**
+
+```Python3
+pip install --upgrade git+https://github.com/sovrasov/flops-counter.pytorch.git
+```
+
+**Example**
+
+```Python3
+import torchvision.models as models
+import torch
+from ptflops import get_model_complexity_info
+
+with torch.cuda.device(0):
+  net = models.densenet161()
+  flops, params = get_model_complexity_info(net, (3, 224, 224), as_strings=True, print_per_layer_stat=True)
+  print('Flops:  ' + flops)
+  print('Params: ' + params)
+```
+
+**方法二**：参考这里的工具https://github.com/Lyken17/pytorch-OpCounter
+
+**Install**
+
+```PyThon3
+pip install thop
+or
+pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
+```
+
+**Example**
+
+```Python3
+from torchvision.models import resnet50
+from thop import profile
+model = resnet50()
+input = torch.randn(1, 3, 224, 224)
+flops, params = profile(model, inputs=(input, ))
+
+from thop import clever_format
+flops, params = clever_format([flops, params], "%.3f")
+```
+
+
 
 
 ### 参考资料
 
 [PyTorch trick 集锦](https://zhuanlan.zhihu.com/p/76459295)
+
+[CNN 模型所需的计算力（flops）和参数（parameters）数量是怎么计算的？](https://www.zhihu.com/question/65305385)
 

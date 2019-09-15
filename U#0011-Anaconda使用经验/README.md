@@ -40,7 +40,7 @@
 
   `conda info -e`
 
-8. 添加镜像源（Anaconda的清华TUNA镜像）
+8. 添加镜像源（Anaconda的[清华TUNA镜像](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/)）
 
   `conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/`
 

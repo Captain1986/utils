@@ -40,7 +40,9 @@
 
 ​     `git stash pop`
 
-4.
+4. 删除远程分支
+
+​     `git push origin --delete [branchname]`
 
 ## 参考文献
 

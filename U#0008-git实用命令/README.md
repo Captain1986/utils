@@ -44,6 +44,16 @@
 
 ​     `git push origin --delete [branchname]`
 
+注意:在删除远程分支时，同名的本地分支并不会被删除，所以还需要单独删除本地同名分支
+
+如果发生以下错误: 
+
+error: unable to delete ‘origin/xxxxxxxx-fixbug’: remote ref does not exist 
+
+error: failed to push some refs to ‘git@github.com:xxxxxxxx/xxxxxxxxxx.git’ 
+
+解决办法:git checkout xxxxx-fixbug切换到当前分支上，然后再进行git push –-delete origin origin/xxxxx-fixbug，此时将不会再发生错误 。
+
 ## 参考文献
 
 [Git菜单](https://geeeeeeeeek.github.io/git-recipes/)

@@ -54,6 +54,14 @@ error: failed to push some refs to ‘git@github.com:xxxxxxxx/xxxxxxxxxx.git’
 
 解决办法:git checkout xxxxx-fixbug切换到当前分支上，然后再进行git push –-delete origin origin/xxxxx-fixbug，此时将不会再发生错误 。
 
+5. 打tag
+
+   `git tag -a v191027 -m "19年10月27号版本" [7b5bccf]`
+
+   `git push --tags`
+
+6. 
+
 ## 参考文献
 
 [Git菜单](https://geeeeeeeeek.github.io/git-recipes/)

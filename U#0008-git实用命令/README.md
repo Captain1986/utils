@@ -60,7 +60,11 @@ error: failed to push some refs to ‘git@github.com:xxxxxxxx/xxxxxxxxxx.git’
 
    `git push --tags`
 
-6. 
+6. 查看某个文件的修改历史
+
+   git blame file和git log --follow file
+
+7. 
 
 ## 参考文献
 

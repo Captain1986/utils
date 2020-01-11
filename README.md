@@ -48,3 +48,5 @@
 
 [U#0019-C++11线程池](https://github.com/Captain1986/utils/tree/master/U%230019-C%2B%2B11%E7%BA%BF%E7%A8%8B%E6%B1%A0)
 
+[U#0020-把git_commit_sha1、OpenCV版本和当前编译时间编译到ELF中](https://github.com/Captain1986/utils/blob/master/U%230020-%E6%8A%8Agit_commit_sha1%E3%80%81OpenCV%E7%89%88%E6%9C%AC%E5%92%8C%E5%BD%93%E5%89%8D%E7%BC%96%E8%AF%91%E6%97%B6%E9%97%B4%E7%BC%96%E8%AF%91%E5%88%B0ELF%E4%B8%AD/main.cpp)
+
